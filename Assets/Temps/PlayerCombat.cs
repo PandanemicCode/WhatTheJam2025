@@ -6,9 +6,9 @@ public enum PlayerRole { Hider, Seeker }
 public class PlayerCombat : MonoBehaviour
 {
     [Header("Combat Settings")]
-    public float attackRange = 1f;               // Attack range radius
-    public LayerMask playerLayer;                 // Layer for detecting other players
-    public Transform attackPoint;                 // Point from which attacks originate
+    public float attackRange = 1.0f;
+    public LayerMask playerLayer;
+    public Transform attackPoint;
 
     [Header("Role")]
     public PlayerRole currentRole = PlayerRole.Hider;
@@ -17,69 +17,66 @@ public class PlayerCombat : MonoBehaviour
 
     private void Awake()
     {
+        // Look for Animator in child GameObjects
         animator = GetComponentInChildren<Animator>();
 
-        if (animator == null)
-            Debug.LogError("Animator not found in children on " + gameObject.name);
+       // if (animator == null)
+       //     Debug.LogError("Animator not found in children. Please assign an Animator component.");
     }
 
     /// <summary>
-    /// Perform attack: plays animation and detects players hit within range.
+    /// Called when player presses attack button
     /// </summary>
     public void Attack()
-{
-    if (animator != null)
-        animator.SetTrigger("Attack");
-
-    Collider[] hitPlayers = Physics.OverlapSphere(
-        attackPoint.position,
-        attackRange,
-        playerLayer
-    );
-
-    foreach (var hit in hitPlayers)
     {
-        if (hit.gameObject != gameObject)
+        if (animator != null)
+            animator.SetTrigger("Attack");
+    }
+
+    /// <summary>
+    /// Called via animation event to actually apply the attack
+    /// </summary>
+    public void PerformAttack()
+    {
+        Collider[] hitPlayers = Physics.OverlapSphere(
+            attackPoint.position,
+            attackRange,
+            playerLayer
+        );
+
+        foreach (var hit in hitPlayers)
         {
-            var otherCombat = hit.GetComponent<PlayerCombat>();
-            if (otherCombat != null)
+            if (hit.gameObject != gameObject)
             {
-                // Pass this (attacker) to the one being hit
-                otherCombat.OnHit(this);
+                var otherCombat = hit.GetComponent<PlayerCombat>();
+                if (otherCombat != null)
+                {
+                    otherCombat.OnHit();
+                }
             }
         }
+
+        Debug.Log($"{gameObject.name} performed an attack.");
     }
-}
 
-
-    /// <summary>
-    /// Called when this player is hit; switches role and plays hit animation.
-    /// </summary>
-    public void OnHit(PlayerCombat attacker)
-{
-    // Swap both roles
-    if (attacker != null)
+    public void OnHit()
     {
-        PlayerRole tempRole = attacker.currentRole;
-        attacker.currentRole = this.currentRole;
-        this.currentRole = tempRole;
+        bool wasHider = currentRole == PlayerRole.Hider;
+        SwitchRole();
 
-        // Optional: Trigger Hit animation
-        if (attacker.animator != null)
-            attacker.animator.SetTrigger("Hit");
-    }
+        if (animator != null)
+        {
+            animator.SetTrigger("Hit");
+            Debug.Log($"{gameObject.name} was hit and is now a {currentRole}");
 
-    if (animator != null)
-        animator.SetTrigger("Hit");
+            if (wasHider && currentRole == PlayerRole.Seeker)
+            {
+                GameManager.Instance.RespawnAsSeeker(this);
+            }
+        }
+    }   
 
-    Debug.Log($"{gameObject.name} was hit and is now a {currentRole}");
-    Debug.Log($"{attacker.gameObject.name} is now a {attacker.currentRole}");
-}
 
-
-    /// <summary>
-    /// Switches player role between Hider and Seeker.
-    /// </summary>
     private void SwitchRole()
     {
         currentRole = (currentRole == PlayerRole.Hider) ? PlayerRole.Seeker : PlayerRole.Hider;
