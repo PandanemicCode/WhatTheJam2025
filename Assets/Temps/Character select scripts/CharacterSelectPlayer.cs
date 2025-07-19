@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class CharacterSelectPlayer : MonoBehaviour
 {
+    
     public Image portraitImage;
     public TMP_Text nameText;
     public GameObject readyIndicator;
@@ -15,6 +17,20 @@ public class CharacterSelectPlayer : MonoBehaviour
     private int characterIndex = 0;
     private bool isReady = false;
     private CharacterSelectionManager selectionManager;
+
+    private PlayerInput playerInput;
+
+    private void Awake()
+    {
+        playerInput = GetComponent<PlayerInput>();
+    }
+
+    public InputDevice GetInputDevice()
+    {
+        if (playerInput != null && playerInput.devices.Count > 0)
+            return playerInput.devices[0];
+        return null;
+    }
 
     private void Start()
     {
@@ -90,4 +106,6 @@ public class CharacterSelectPlayer : MonoBehaviour
 
     public bool IsReady() => isReady;
     public int GetCharacterIndex() => characterIndex;
+
+    
 }

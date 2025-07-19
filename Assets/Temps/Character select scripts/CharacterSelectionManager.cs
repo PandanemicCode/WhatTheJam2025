@@ -23,13 +23,26 @@ public class CharacterSelectionManager : MonoBehaviour
         return false;
     }
 
-    private void Update()
-    {
+   private void Update()
+{
         if (players.Count > 0 && players.TrueForAll(p => p.IsReady()))
         {
             Debug.Log("All players ready!");
-            // Pass character selections here or load game
-            SceneManager.LoadScene("GameScene");
-        }
+
+            CharacterSelectionData.selectedCharacterIndices.Clear();
+            CharacterSelectionData.playerInputDevices.Clear();
+
+            CharacterSelectionData.Clear();
+
+                foreach (var player in players)  // Replace 'players' with your actual list of joined players
+                {
+                     CharacterSelectionData.selectedCharacterIndices.Add(player.GetCharacterIndex());
+                    CharacterSelectionData.playerInputDevices.Add(player.GetInputDevice());
+                }
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // or "GameScene"
+
     }
+}
+
+
 }
