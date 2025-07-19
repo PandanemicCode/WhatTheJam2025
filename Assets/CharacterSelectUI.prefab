@@ -149,6 +149,8 @@ GameObject:
   - component: {fileID: 5687979696070738901}
   - component: {fileID: 4674931517490183846}
   - component: {fileID: 8179567168832715790}
+  - component: {fileID: 1075361182309506759}
+  - component: {fileID: 6484675547121096967}
   m_Layer: 5
   m_Name: CharacterSelectUI
   m_TagString: Untagged
@@ -216,6 +218,77 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1075361182309506759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181340831586056697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fb90170926d0b48936d332cd6174ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portraitImage: {fileID: 1110382629676912157}
+  nameText: {fileID: 1499073467882018998}
+  readyIndicator: {fileID: 698788854939852494}
+  layoutGroupName: PlayerPanelContainer
+  fallbackCanvasName: UI
+--- !u!114 &6484675547121096967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181340831586056697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 89e86952059edcc49b2fb67bde5d6886, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 9fc8ab27-3d08-4849-abc2-e6fe3c7dddb5
+    m_ActionName: 'CharacterSelect/Navigate[/XInputControllerWindows/leftStick,/XInputControllerWindows/dpad]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f3e81611-6e5d-4b17-b66d-d008ccc8b67f
+    m_ActionName: 'CharacterSelect/Submit[/XInputControllerWindows/buttonSouth]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c9d2d8fd-bfec-4f48-8334-60c8ac345ee7
+    m_ActionName: 'CharacterSelect/Cancel[/XInputControllerWindows/buttonEast]'
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: CharacterSelect
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &8263634432242628353
 GameObject:
   m_ObjectHideFlags: 0

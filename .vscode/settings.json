@@ -66,5 +66,6 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "WhatTheJam2025.sln"
+    "dotnet.defaultSolution": "WhatTheJam2025.sln",
+    "FSharp.suggestGitignore": false
 }

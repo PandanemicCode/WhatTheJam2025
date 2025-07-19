@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 978c0b37dd6a5324db9769739ecb8e0f, type: 3}
   m_Name: Character1
   m_EditorClassIdentifier: 
-  characterName: character1
-  characterPortrait: {fileID: 0}
+  characterName: charla
+  characterPortrait: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}

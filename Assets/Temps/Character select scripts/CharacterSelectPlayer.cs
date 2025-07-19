@@ -1,40 +1,58 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
 
 public class CharacterSelectPlayer : MonoBehaviour
 {
     public Image portraitImage;
-    public TextMeshProUGUI nameText;
+    public TMP_Text nameText;
     public GameObject readyIndicator;
+
+    [Header("Optional: Only used if layout group isn't found")]
+    public string layoutGroupName = "PlayerPanelLayout";  // <- Set this to match the GameObject in the scene
+    public string fallbackCanvasName = "Canvas";          // <- Used if layout group isn't found
 
     private int characterIndex = 0;
     private bool isReady = false;
-
     private CharacterSelectionManager selectionManager;
-    private PlayerInput playerInput;
 
     private void Start()
     {
         selectionManager = FindObjectOfType<CharacterSelectionManager>();
-        playerInput = GetComponent<PlayerInput>();
         selectionManager.RegisterPlayer(this);
         UpdateVisual();
+
+        // Try to find layout group by name
+        Transform layoutGroup = GameObject.Find(layoutGroupName)?.transform;
+        Transform fallbackCanvas = GameObject.Find(fallbackCanvasName)?.transform;
+
+        // Choose where to parent the UI panel
+        Transform parentToUse = layoutGroup != null ? layoutGroup : fallbackCanvas;
+
+        if (parentToUse != null)
+        {
+            transform.SetParent(parentToUse, false);
+            RectTransform rt = GetComponent<RectTransform>();
+            rt.anchoredPosition = Vector2.zero;
+            rt.localScale = Vector3.one;
+        }
+        else
+        {
+            Debug.LogWarning("No layout group or fallback canvas found! Panel may not appear correctly.");
+        }
     }
 
-    public void OnNavigate(InputAction.CallbackContext ctx)
+    public void Navigate()
     {
-        if (!ctx.performed || isReady) return;
+        if (isReady) return;
 
-        Vector2 input = ctx.ReadValue<Vector2>();
+        Vector2 input = UnityEngine.InputSystem.Gamepad.current.leftStick.ReadValue();
         if (input.x > 0.5f) ChangeCharacter(1);
         else if (input.x < -0.5f) ChangeCharacter(-1);
     }
 
-    public void OnSubmit(InputAction.CallbackContext ctx)
+    public void Submit()
     {
-        if (!ctx.performed) return;
         if (!isReady && !selectionManager.IsCharacterTaken(characterIndex))
         {
             isReady = true;
@@ -42,9 +60,9 @@ public class CharacterSelectPlayer : MonoBehaviour
         }
     }
 
-    public void OnCancel(InputAction.CallbackContext ctx)
+    public void Cancel()
     {
-        if (!ctx.performed || !isReady) return;
+        if (!isReady) return;
         isReady = false;
         readyIndicator.SetActive(false);
     }
