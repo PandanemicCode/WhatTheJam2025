@@ -102,12 +102,12 @@ public class PlayerCombat : MonoBehaviour
 private IEnumerator ResetHitBool()
 {
     // Length of the hit animation, adjust as needed
-    yield return new WaitForSeconds(0.5f);
+    yield return new WaitForSeconds(0.1f);
     animator.SetBool("IsHit", false);
 }
 
 
-private void SwitchRole(float delay = 2f)
+private void SwitchRole(float delay = 4f)
 {
     StartCoroutine(DelayedRoleSwitch(delay));
 }
