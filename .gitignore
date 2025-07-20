@@ -73,3 +73,277 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Old stuff.meta
+Assets/Old stuff/Camerafocus.cs
+Assets/Old stuff/Camerafocus.cs.meta
+Assets/Old stuff/Cesar.meta
+Assets/Old stuff/Cesar/game level map_&_walls (1).fbx
+Assets/Old stuff/Cesar/game level map_&_walls (1).fbx.meta
+Assets/Old stuff/Cesar/game level map_&_walls2.fbx
+Assets/Old stuff/Cesar/game level map_&_walls2.fbx.meta
+Assets/Old stuff/Cesar/Level .prefab
+Assets/Old stuff/Cesar/Level .prefab.meta
+Assets/Old stuff/Cesar/levellayout.unity
+Assets/Old stuff/Cesar/levellayout.unity.meta
+Assets/Old stuff/Cesar/Prtefabs.meta
+Assets/Old stuff/Cesar/Prtefabs/2walls .prefab
+Assets/Old stuff/Cesar/Prtefabs/2walls .prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/4walls .prefab
+Assets/Old stuff/Cesar/Prtefabs/4walls .prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/5walls .prefab
+Assets/Old stuff/Cesar/Prtefabs/5walls .prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/6walls .prefab
+Assets/Old stuff/Cesar/Prtefabs/6walls .prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/6wallsdoor 2.prefab
+Assets/Old stuff/Cesar/Prtefabs/6wallsdoor 2.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/6wallsdoor.prefab
+Assets/Old stuff/Cesar/Prtefabs/6wallsdoor.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/7walls .prefab
+Assets/Old stuff/Cesar/Prtefabs/7walls .prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/9walls.prefab
+Assets/Old stuff/Cesar/Prtefabs/9walls.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/9wallsdoor.prefab
+Assets/Old stuff/Cesar/Prtefabs/9wallsdoor.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/doorway.prefab
+Assets/Old stuff/Cesar/Prtefabs/doorway.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/game level map_&_walls3.fbx
+Assets/Old stuff/Cesar/Prtefabs/game level map_&_walls3.fbx.meta
+Assets/Old stuff/Cesar/Prtefabs/Level .prefab
+Assets/Old stuff/Cesar/Prtefabs/Level .prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/twall1.prefab
+Assets/Old stuff/Cesar/Prtefabs/twall1.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/twall2.prefab
+Assets/Old stuff/Cesar/Prtefabs/twall2.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/waall2.prefab
+Assets/Old stuff/Cesar/Prtefabs/waall2.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/wall1.prefab
+Assets/Old stuff/Cesar/Prtefabs/wall1.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/wall3.prefab
+Assets/Old stuff/Cesar/Prtefabs/wall3.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/wall4.prefab
+Assets/Old stuff/Cesar/Prtefabs/wall4.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/wall5.prefab
+Assets/Old stuff/Cesar/Prtefabs/wall5.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/wall6.prefab
+Assets/Old stuff/Cesar/Prtefabs/wall6.prefab.meta
+Assets/Old stuff/Cesar/Prtefabs/wall7.prefab
+Assets/Old stuff/Cesar/Prtefabs/wall7.prefab.meta
+Assets/Old stuff/CharacterSelectionData.cs
+Assets/Old stuff/CharacterSelectionData.cs.meta
+Assets/Old stuff/CharacterSelectUI.prefab
+Assets/Old stuff/CharacterSelectUI.prefab.meta
+Assets/Old stuff/Lvl.prefab
+Assets/Old stuff/Lvl.prefab.meta
+Assets/Old stuff/Models.meta
+Assets/Old stuff/Models/Characters.meta
+Assets/Old stuff/Models/Characters/BunnyGirl.meta
+Assets/Old stuff/Models/Characters/BunnyGirl.prefab
+Assets/Old stuff/Models/Characters/BunnyGirl.prefab.meta
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.controller
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.controller.meta
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3 (1).fbx
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3 (1).fbx.meta
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3@Fall Flat.fbx
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3@Fall Flat.fbx.meta
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3@Great Sword Run.fbx
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3@Great Sword Run.fbx.meta
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3@Great Sword Slash.fbx
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3@Great Sword Slash.fbx.meta
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3@Standard Run.fbx
+Assets/Old stuff/Models/Characters/BunnyGirl/Chibi2.v3@Standard Run.fbx.meta
+Assets/Old stuff/Models/Characters/BunnyGirl/Material.003.mat
+Assets/Old stuff/Models/Characters/BunnyGirl/Material.003.mat.meta
+Assets/Old stuff/Models/Characters/CatBoy.meta
+Assets/Old stuff/Models/Characters/CatBoy.prefab
+Assets/Old stuff/Models/Characters/CatBoy.prefab.meta
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2 (1).fbx
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2 (1).fbx.meta
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2 (1)@Great Sword Run.fbx
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2 (1)@Great Sword Run.fbx.meta
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Fall Flat.fbx
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Fall Flat.fbx.meta
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Great Sword Slash 1.fbx
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Great Sword Slash 1.fbx.meta
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Great Sword Slash.fbx
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Great Sword Slash.fbx.meta
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Idle.fbx
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Idle.fbx.meta
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Running.fbx
+Assets/Old stuff/Models/Characters/CatBoy/chibi1 ver2@Running.fbx.meta
+Assets/Old stuff/Models/Characters/CatBoy/Chibi1.controller
+Assets/Old stuff/Models/Characters/CatBoy/Chibi1.controller.meta
+Assets/Old stuff/Models/Characters/CatBoy/Great Sword Slash.anim
+Assets/Old stuff/Models/Characters/CatBoy/Great Sword Slash.anim.meta
+Assets/Old stuff/Models/Characters/CatBoy/Material.mat
+Assets/Old stuff/Models/Characters/CatBoy/Material.mat.meta
+Assets/Old stuff/Models/Characters/chibi.png
+Assets/Old stuff/Models/Characters/chibi.png.meta
+Assets/Old stuff/Models/Characters/chibi2.png
+Assets/Old stuff/Models/Characters/chibi2.png.meta
+Assets/Old stuff/Models/Enviorment.meta
+Assets/Old stuff/Scenes.meta
+Assets/Old stuff/Scenes/TestingArea.unity
+Assets/Old stuff/Scenes/TestingArea.unity.meta
+Assets/Old stuff/Scenes/UiTesting area.unity
+Assets/Old stuff/Scenes/UiTesting area.unity.meta
+Assets/Old stuff/Scripts.meta
+Assets/Old stuff/Settings.meta
+Assets/Old stuff/Settings/DefaultVolumeProfile.asset
+Assets/Old stuff/Settings/DefaultVolumeProfile.asset.meta
+Assets/Old stuff/Settings/Mobile_Renderer.asset
+Assets/Old stuff/Settings/Mobile_Renderer.asset.meta
+Assets/Old stuff/Settings/Mobile_RPAsset.asset
+Assets/Old stuff/Settings/Mobile_RPAsset.asset.meta
+Assets/Old stuff/Settings/PC_Renderer.asset
+Assets/Old stuff/Settings/PC_Renderer.asset.meta
+Assets/Old stuff/Settings/PC_RPAsset.asset
+Assets/Old stuff/Settings/PC_RPAsset.asset.meta
+Assets/Old stuff/Settings/SampleSceneProfile.asset
+Assets/Old stuff/Settings/SampleSceneProfile.asset.meta
+Assets/Old stuff/Settings/UniversalRenderPipelineGlobalSettings.asset
+Assets/Old stuff/Settings/UniversalRenderPipelineGlobalSettings.asset.meta
+Assets/Old stuff/Shaders.meta
+Assets/Old stuff/Temps.meta
+Assets/Old stuff/Temps/Character data.meta
+Assets/Old stuff/Temps/Character data/Character1 1.asset
+Assets/Old stuff/Temps/Character data/Character1 1.asset.meta
+Assets/Old stuff/Temps/Character data/Character1.asset
+Assets/Old stuff/Temps/Character data/Character1.asset.meta
+Assets/Old stuff/Temps/Character select scripts.meta
+Assets/Old stuff/Temps/Character select scripts/CharacterSelectionManager.cs
+Assets/Old stuff/Temps/Character select scripts/CharacterSelectionManager.cs.meta
+Assets/Old stuff/Temps/Character select scripts/CharacterSelectPlayer.cs
+Assets/Old stuff/Temps/Character select scripts/CharacterSelectPlayer.cs.meta
+Assets/Old stuff/Temps/GameSceneSetup.cs
+Assets/Old stuff/Temps/GameSceneSetup.cs.meta
+Assets/Old stuff/Temps/Input.meta
+Assets/Old stuff/Temps/Input/CharacterSelectControls.cs
+Assets/Old stuff/Temps/Input/CharacterSelectControls.cs.meta
+Assets/Old stuff/Temps/Input/CharacterSelectControls.inputactions
+Assets/Old stuff/Temps/Input/CharacterSelectControls.inputactions.meta
+Assets/Old stuff/Temps/Input/Player_Input.cs
+Assets/Old stuff/Temps/Input/Player_Input.cs.meta
+Assets/Old stuff/Temps/MovementScripts.meta
+Assets/Old stuff/Temps/MovementScripts/FirstPersonController.cs
+Assets/Old stuff/Temps/MovementScripts/FirstPersonController.cs.meta
+Assets/Old stuff/Temps/MovementScripts/ThirdPersonController.cs
+Assets/Old stuff/Temps/MovementScripts/ThirdPersonController.cs.meta
+Assets/Old stuff/Temps/pREFABS.meta
+Assets/Old stuff/Temps/pREFABS/First PersonPlayer Temp.prefab
+Assets/Old stuff/Temps/pREFABS/First PersonPlayer Temp.prefab.meta
+Assets/Old stuff/Temps/pREFABS/ThirdPersonPlayerTemp.prefab
+Assets/Old stuff/Temps/pREFABS/ThirdPersonPlayerTemp.prefab.meta
+Assets/Old stuff/Temps/Scriptable Game Obgects.meta
+Assets/Old stuff/Temps/Scriptable Game Obgects/CharacterData.cs
+Assets/Old stuff/Temps/Scriptable Game Obgects/CharacterData.cs.meta
+Assets/Old stuff/Temps/Scriptable Game Obgects/MovementSetting2D.cs
+Assets/Old stuff/Temps/Scriptable Game Obgects/MovementSetting2D.cs.meta
+Assets/Old stuff/Temps/Scriptable Game Obgects/MovementSettings3D.cs
+Assets/Old stuff/Temps/Scriptable Game Obgects/MovementSettings3D.cs.meta
+Assets/Old stuff/Temps/Scriptable Game Obgects/PlayerMovementSettings.asset
+Assets/Old stuff/Temps/Scriptable Game Obgects/PlayerMovementSettings.asset.meta
+Assets/Old stuff/Temps/ThirdPersonPlayerTemp.prefab
+Assets/Old stuff/Temps/ThirdPersonPlayerTemp.prefab.meta
+Assets/Old stuff/Temps/Ui.meta
+Assets/Old stuff/Temps/Ui/GameManager.cs
+Assets/Old stuff/Temps/Ui/GameManager.cs.meta
+Assets/Old stuff/Temps/Ui/PlayerCombat.cs
+Assets/Old stuff/Temps/Ui/PlayerCombat.cs.meta
+Assets/Old stuff/Temps/Ui/RoomManager.cs
+Assets/Old stuff/Temps/Ui/RoomManager.cs.meta
+Assets/Old stuff/Temps/Ybot.meta
+Assets/Old stuff/Temps/Ybot/3dAnimationController.controller
+Assets/Old stuff/Temps/Ybot/3dAnimationController.controller.meta
+Assets/Old stuff/Temps/Ybot/Y Bot.fbx
+Assets/Old stuff/Temps/Ybot/Y Bot.fbx.meta
+Assets/Old stuff/Temps/Ybot/Y Bot@Idle.fbx
+Assets/Old stuff/Temps/Ybot/Y Bot@Idle.fbx.meta
+Assets/Old stuff/Temps/Ybot/Y Bot@Running.fbx
+Assets/Old stuff/Temps/Ybot/Y Bot@Running.fbx.meta
+Assets/Old stuff/TextMesh Pro.meta
+Assets/Old stuff/TextMesh Pro/Fonts.meta
+Assets/Old stuff/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+Assets/Old stuff/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+Assets/Old stuff/TextMesh Pro/Fonts/LiberationSans.ttf
+Assets/Old stuff/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+Assets/Old stuff/TextMesh Pro/Resources.meta
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials.meta
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+Assets/Old stuff/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+Assets/Old stuff/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+Assets/Old stuff/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+Assets/Old stuff/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+Assets/Old stuff/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+Assets/Old stuff/TextMesh Pro/Resources/Sprite Assets.meta
+Assets/Old stuff/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+Assets/Old stuff/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+Assets/Old stuff/TextMesh Pro/Resources/Style Sheets.meta
+Assets/Old stuff/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+Assets/Old stuff/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+Assets/Old stuff/TextMesh Pro/Resources/TMP Settings.asset
+Assets/Old stuff/TextMesh Pro/Resources/TMP Settings.asset.meta
+Assets/Old stuff/TextMesh Pro/Shaders.meta
+Assets/Old stuff/TextMesh Pro/Shaders/SDFFunctions.hlsl
+Assets/Old stuff/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_Bitmap.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_Sprite.shader
+Assets/Old stuff/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMPro.cginc
+Assets/Old stuff/TextMesh Pro/Shaders/TMPro.cginc.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+Assets/Old stuff/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMPro_Properties.cginc
+Assets/Old stuff/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+Assets/Old stuff/TextMesh Pro/Shaders/TMPro_Surface.cginc
+Assets/Old stuff/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+Assets/Old stuff/TextMesh Pro/Sprites.meta
+Assets/Old stuff/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+Assets/Old stuff/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+Assets/Old stuff/TextMesh Pro/Sprites/EmojiOne.json
+Assets/Old stuff/TextMesh Pro/Sprites/EmojiOne.json.meta
+Assets/Old stuff/TextMesh Pro/Sprites/EmojiOne.png
+Assets/Old stuff/TextMesh Pro/Sprites/EmojiOne.png.meta
+Assets/Old stuff/wave 3.png
+Assets/Old stuff/wave 3.png.meta
+Assets/Old stuff/wave.mat
+Assets/Old stuff/wave.mat.meta
+Assets/Player_Input.inputactions
